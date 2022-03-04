@@ -40,7 +40,7 @@ namespace Cardano.NET
             { 
                 // 1000000 Lovelace = 1 ADA, 1 Lovelace = 0.000001 ADA
                 String value = amount.ToString("N6");   // Make sure there are 6 decimal places
-                value = value.Replace(".", "");         // Remove dot -> 1.123456 ADA = 1230000 Lovelace
+                value = value.Replace(".", "");         // Remove dot -> 1.123456 ADA = 1123456 Lovelace
 
                 return ToInteger(value);                // Convert to integer
             }
