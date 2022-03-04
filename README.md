@@ -1,0 +1,1 @@
+Class library for accessing Cardano Wallet API. Upon first use or upon page load, you need to instantiate a WalletAPI object to initialize the BaseURL with the url address of the Cardano Wallet web api instance (eg. "http://127.0.0.1:8090/")
